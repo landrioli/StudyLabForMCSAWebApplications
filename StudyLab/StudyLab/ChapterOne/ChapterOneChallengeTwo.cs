@@ -12,7 +12,7 @@ Requirements
 • Application will show position and report card in descending order.
 */
 
-namespace StudyLab.Chapter1
+namespace StudyLab.ChapterOne
 {
     public class ChapterOneChallengeTwo : IExerciseContent
     {

@@ -1,7 +1,6 @@
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\bin\Debug\StudyLab.exe.config
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\bin\Debug\StudyLab.exe
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\bin\Debug\StudyLab.pdb
-D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\obj\Debug\StudyLab.csprojAssemblyReference.cache
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\obj\Debug\StudyLab.csproj.CoreCompileInputs.cache
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\obj\Debug\StudyLab.exe
 D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\StudyLab\obj\Debug\StudyLab.pdb
