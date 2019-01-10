@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChapterOne\ChapterOneChallengeTwo.cs" />
-    <Compile Include="ChapterThree\OperatorsExercise.cs" />
-    <Compile Include="ChapterTwo\StaticClassesExercise.cs" />
-    <Compile Include="ChapterTwo\StructExercise.cs" />
+    <Compile Include="1 - ChapterOne\ChapterOneChallengeTwo.cs" />
+    <Compile Include="3 - ChapterThree\ChallengeOne\ChapterThreeChallengeOne.cs" />
+    <Compile Include="3 - ChapterThree\OperatorsExercise.cs" />
+    <Compile Include="2 - ChapterTwo\StaticClassesExercise.cs" />
+    <Compile Include="2 - ChapterTwo\StructExercise.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
