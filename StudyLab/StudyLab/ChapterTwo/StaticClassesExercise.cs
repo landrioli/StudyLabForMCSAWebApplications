@@ -22,7 +22,7 @@ namespace StudyLab.ChapterTwo
             Age = 22;
         }
 
-        //Do not allow public constructor, so the private one is only used to initialize the internal static members
+        //Do not allow public constructor, so the private one is only used to initialize the internal static members 
         //public static Helper()
         //{
         //    Age = 22;
