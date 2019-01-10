@@ -1,4 +1,5 @@
 ﻿using StudyLab.ChapterOne;
+using StudyLab.ChapterTwo;
 
 namespace StudyLab
 {
@@ -6,7 +7,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new ChapterOneChallengeTwo();
+            IExerciseContent exercise = new StructExercise();
             exercise.Execute();
         }
     }
