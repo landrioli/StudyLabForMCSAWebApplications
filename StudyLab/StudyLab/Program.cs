@@ -2,6 +2,7 @@
 using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
 using StudyLab._3___ChapterThree.ChallengeOne;
+using StudyLab._4___ChapterFour;
 
 namespace StudyLab
 {
@@ -9,7 +10,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new ChapterThreeChallengeOne();
+            IExerciseContent exercise = new CollectionsExercises();
             exercise.Execute();
         }
     }

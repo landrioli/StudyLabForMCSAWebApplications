@@ -48,6 +48,8 @@
     <Compile Include="3 - ChapterThree\OperatorsExercise.cs" />
     <Compile Include="2 - ChapterTwo\StaticClassesExercise.cs" />
     <Compile Include="2 - ChapterTwo\StructExercise.cs" />
+    <Compile Include="4 - ChapterFour\CollectionsExercises.cs" />
+    <Compile Include="4 - ChapterFour\GenericsExercises.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
