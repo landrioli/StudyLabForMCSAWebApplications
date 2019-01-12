@@ -10,7 +10,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new CollectionsExercises();
+            IExerciseContent exercise = new ComparerExercises();
             exercise.Execute();
         }
     }

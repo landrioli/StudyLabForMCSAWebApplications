@@ -62,7 +62,12 @@ namespace StudyLab._4___ChapterFour
             //Check whether foreach can move to next iteration or not
             public bool MoveNext()
             {
+                //Return 1 jumps 1 ..
+                this.index = this.index + 2;
                 return (++index < _people.Length);
+
+                //Return the normal order 1 by 1
+                //return (++index < _people.Length);
             }
             //Reset the iteration
             public void Reset()
