@@ -3,6 +3,7 @@ using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
 using StudyLab._3___ChapterThree.ChallengeOne;
 using StudyLab._4___ChapterFour;
+using StudyLab._5___ChapterFive;
 
 namespace StudyLab
 {
@@ -10,7 +11,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new ComparerExercises();
+            IExerciseContent exercise = new DelegateAndEventsExercises();
             exercise.Execute();
         }
     }
