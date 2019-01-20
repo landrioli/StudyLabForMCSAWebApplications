@@ -52,6 +52,7 @@
     <Compile Include="4 - ChapterFour\ComparableExercises.cs" />
     <Compile Include="4 - ChapterFour\ComparerExercises.cs" />
     <Compile Include="4 - ChapterFour\GenericsExercises.cs" />
+    <Compile Include="5 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
     <Compile Include="5 - ChapterFive\DelegateAndEventsExercises.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
