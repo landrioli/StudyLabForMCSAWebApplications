@@ -54,6 +54,7 @@
     <Compile Include="4 - ChapterFour\GenericsExercises.cs" />
     <Compile Include="5 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
     <Compile Include="5 - ChapterFive\DelegateAndEventsExercises.cs" />
+    <Compile Include="8 - ChapterEight\ThreadsExercises.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

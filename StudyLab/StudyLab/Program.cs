@@ -1,10 +1,12 @@
-﻿using StudyLab.ChapterOne;
+﻿using System;
+using StudyLab.ChapterOne;
 using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
 using StudyLab._3___ChapterThree.ChallengeOne;
 using StudyLab._4___ChapterFour;
 using StudyLab._5___ChapterFive;
 using StudyLab._5___ChapterFive.ChallengeOne;
+using StudyLab._8___ChapterEight;
 
 namespace StudyLab
 {
@@ -12,8 +14,9 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new ChapterFiveChallengeOne();
+            IExerciseContent exercise = new ThreadsExercises();
             exercise.Execute();
+            Console.ReadLine();
         }
     }
 }
