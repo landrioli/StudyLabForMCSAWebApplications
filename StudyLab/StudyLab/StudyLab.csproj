@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,20 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 - ChapterOne\ChapterOneChallengeTwo.cs" />
-    <Compile Include="3 - ChapterThree\ChallengeOne\ChapterThreeChallengeOne.cs" />
-    <Compile Include="3 - ChapterThree\OperatorsExercise.cs" />
-    <Compile Include="2 - ChapterTwo\StaticClassesExercise.cs" />
-    <Compile Include="2 - ChapterTwo\StructExercise.cs" />
-    <Compile Include="4 - ChapterFour\CollectionsExercises.cs" />
-    <Compile Include="4 - ChapterFour\ComparableExercises.cs" />
-    <Compile Include="4 - ChapterFour\ComparerExercises.cs" />
-    <Compile Include="4 - ChapterFour\GenericsExercises.cs" />
-    <Compile Include="5 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
-    <Compile Include="5 - ChapterFive\DelegateAndEventsExercises.cs" />
-    <Compile Include="8 - ChapterEight\AsyncProgrammingExercises.cs" />
-    <Compile Include="8 - ChapterEight\TasksExercises.cs" />
-    <Compile Include="8 - ChapterEight\ThreadsExercises.cs" />
+    <Compile Include="01 - ChapterOne\ChapterOneChallengeTwo.cs" />
+    <Compile Include="03 - ChapterThree\ChallengeOne\ChapterThreeChallengeOne.cs" />
+    <Compile Include="03 - ChapterThree\OperatorsExercise.cs" />
+    <Compile Include="02 - ChapterTwo\StaticClassesExercise.cs" />
+    <Compile Include="02 - ChapterTwo\StructExercise.cs" />
+    <Compile Include="04 - ChapterFour\CollectionsExercises.cs" />
+    <Compile Include="04 - ChapterFour\ComparableExercises.cs" />
+    <Compile Include="04 - ChapterFour\ComparerExercises.cs" />
+    <Compile Include="04 - ChapterFour\GenericsExercises.cs" />
+    <Compile Include="05 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
+    <Compile Include="05 - ChapterFive\DelegateAndEventsExercises.cs" />
+    <Compile Include="08 - ChapterEight\AsyncProgrammingExercises.cs" />
+    <Compile Include="08 - ChapterEight\TasksExercises.cs" />
+    <Compile Include="08 - ChapterEight\ThreadsExercises.cs" />
+    <Compile Include="10 - ChapterTen\SerializationExercises.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

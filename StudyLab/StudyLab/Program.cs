@@ -2,6 +2,7 @@
 using StudyLab.ChapterOne;
 using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
+using StudyLab._10___ChapterTen;
 using StudyLab._3___ChapterThree.ChallengeOne;
 using StudyLab._4___ChapterFour;
 using StudyLab._5___ChapterFive;
@@ -14,7 +15,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new AsyncProgrammingExercises();
+            IExerciseContent exercise = new SerializationExercises();
             exercise.Execute();
             Console.ReadLine();
         }
