@@ -1,0 +1,6 @@
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\bin\Debug\ClassLibraryForGACExercise.dll
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\bin\Debug\ClassLibraryForGACExercise.pdb
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\obj\Debug\ClassLibraryForGACExercise.csproj.CoreCompileInputs.cache
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\obj\Debug\ClassLibraryForGACExercise.dll
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\obj\Debug\ClassLibraryForGACExercise.pdb
+D:\Workspace\StudyLabForMCSAWebApplications\StudyLab\ClassLibraryForGACExercise\obj\Debug\ClassLibraryForGACExercise.csprojAssemblyReference.cache

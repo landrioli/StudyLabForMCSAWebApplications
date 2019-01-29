@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D47F982D-ED97-4FA4-852C-3978BABCF28B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>StudyLab</RootNamespace>
-    <AssemblyName>StudyLab</AssemblyName>
+    <ProjectGuid>{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibraryForGACExercise</RootNamespace>
+    <AssemblyName>ClassLibraryForGACExercise</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,11 +30,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>myClassLibrarykey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,30 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01 - ChapterOne\ChapterOneChallengeTwo.cs" />
-    <Compile Include="03 - ChapterThree\ChallengeOne\ChapterThreeChallengeOne.cs" />
-    <Compile Include="03 - ChapterThree\OperatorsExercise.cs" />
-    <Compile Include="02 - ChapterTwo\StaticClassesExercise.cs" />
-    <Compile Include="02 - ChapterTwo\StructExercise.cs" />
-    <Compile Include="04 - ChapterFour\CollectionsExercises.cs" />
-    <Compile Include="04 - ChapterFour\ComparableExercises.cs" />
-    <Compile Include="04 - ChapterFour\ComparerExercises.cs" />
-    <Compile Include="04 - ChapterFour\GenericsExercises.cs" />
-    <Compile Include="05 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
-    <Compile Include="05 - ChapterFive\DelegateAndEventsExercises.cs" />
-    <Compile Include="08 - ChapterEight\AsyncProgrammingExercises.cs" />
-    <Compile Include="08 - ChapterEight\TasksExercises.cs" />
-    <Compile Include="08 - ChapterEight\ThreadsExercises.cs" />
-    <Compile Include="10 - ChapterTen\SerializationExercises.cs" />
-    <Compile Include="11 - Criptography\CryptographExercises.cs" />
-    <Compile Include="12 - ChapterTwelve\ReflectionExercises.cs" />
-    <Compile Include="IExerciseContent.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="TestClassToGacInstall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="myClassLibrarykey.snk" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyLab", "StudyLab\StudyLab.csproj", "{D47F982D-ED97-4FA4-852C-3978BABCF28B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryForGACExercise", "ClassLibraryForGACExercise\ClassLibraryForGACExercise.csproj", "{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D47F982D-ED97-4FA4-852C-3978BABCF28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D47F982D-ED97-4FA4-852C-3978BABCF28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D47F982D-ED97-4FA4-852C-3978BABCF28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17E775B-2393-4F05-AA4E-AB0AD875C0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
