@@ -12,7 +12,33 @@ namespace StudyLab._8___ChapterEight
             //CreateSimpleThread();
             //CreateForegroundThread();
             //CreateThreadByPriority();
-            CreateThreadPool();
+            //CreateThreadPool();
+            ThreadLocal();
+        }
+
+        private void ThreadLocal()
+        {
+            ThreadLocal<int> _field =
+                new ThreadLocal<int>(() =>
+                {
+                    return Thread.CurrentThread.ManagedThreadId;
+                });
+
+            new Thread(() =>
+            {
+                for (int x = 0; x < _field.Value; x++)
+                {
+                    Console.WriteLine("Thread A: {0}", x);
+                }
+            }).Start();
+
+            new Thread(() =>
+                    {
+                        for (int x = 0; x < _field.Value; x++)
+                        {
+                            Console.WriteLine("Thread B: {0}", x);
+                        }
+                    }).Start();
         }
 
         private void CreateThreadPool()
@@ -27,10 +53,10 @@ namespace StudyLab._8___ChapterEight
             // Queue the thread with Lambda
             ThreadPool.QueueUserWorkItem((s) =>
             {
-                //s = state
-                //no value is assign to s
-                //so s is null
-                Console.WriteLine("Hi I'm another free thread from thread pool");
+            //s = state
+            //no value is assign to s
+            //so s is null
+            Console.WriteLine("Hi I'm another free thread from thread pool");
             });
             Console.ReadLine(); //Wait for Enter
         }
