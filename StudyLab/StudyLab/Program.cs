@@ -2,6 +2,7 @@
 using StudyLab.ChapterOne;
 using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
+using StudyLab._04___ChapterFour;
 using StudyLab._10___ChapterTen;
 using StudyLab._11___Criptography;
 using StudyLab._12___ChapterTwelve;
@@ -17,7 +18,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new ThreadsExercises();
+            IExerciseContent exercise = new StringExercises();
             exercise.Execute();
             Console.ReadLine();
         }

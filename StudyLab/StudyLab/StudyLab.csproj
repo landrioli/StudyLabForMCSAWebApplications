@@ -54,6 +54,7 @@
     <Compile Include="04 - ChapterFour\ComparableExercises.cs" />
     <Compile Include="04 - ChapterFour\ComparerExercises.cs" />
     <Compile Include="04 - ChapterFour\GenericsExercises.cs" />
+    <Compile Include="04 - ChapterFour\StringExercises.cs" />
     <Compile Include="05 - ChapterFive\ChallengeOne\ChapterFiveChallengeOne.cs" />
     <Compile Include="05 - ChapterFive\DelegateAndEventsExercises.cs" />
     <Compile Include="08 - ChapterEight\AsyncProgrammingExercises.cs" />
