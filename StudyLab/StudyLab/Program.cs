@@ -6,6 +6,7 @@ using StudyLab._04___ChapterFour;
 using StudyLab._10___ChapterTen;
 using StudyLab._11___Criptography;
 using StudyLab._12___ChapterTwelve;
+using StudyLab._15___ChapterFifteen;
 using StudyLab._3___ChapterThree.ChallengeOne;
 using StudyLab._4___ChapterFour;
 using StudyLab._5___ChapterFive;
@@ -18,7 +19,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new StringExercises();
+            IExerciseContent exercise = new BuildConfigurationsExercises();
             exercise.Execute();
             Console.ReadLine();
         }

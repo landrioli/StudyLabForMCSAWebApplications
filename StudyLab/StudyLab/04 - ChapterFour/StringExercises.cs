@@ -35,8 +35,8 @@ namespace StudyLab._04___ChapterFour
             //✑ The time must be formatted as hour:minute AM/ PM, for example 2:00 PM.
             //    ✑ The date must be formatted as month / day / year, for example 04 / 21 / 2013.
             //    ✑ The temperature must be formatted to have two decimal places, for example 23.45.
-     
-                 DateTime date = new DateTime(2019, 02, 16);
+
+            DateTime date = new DateTime(2019, 02, 16);
             double temp = 15;
             CultureInfo provider = new CultureInfo("en-US");
             string output = string.Format(provider, "Temperature at {0:hh:mm tt} {0:MM/dd/yyyy} on {1:N2}", date, temp);

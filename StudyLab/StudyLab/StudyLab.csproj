@@ -63,6 +63,7 @@
     <Compile Include="10 - ChapterTen\SerializationExercises.cs" />
     <Compile Include="11 - ChapterEleven\CryptographExercises.cs" />
     <Compile Include="12 - ChapterTwelve\ReflectionExercises.cs" />
+    <Compile Include="15 - ChapterFifteen\BuildConfigurationsExercises.cs" />
     <Compile Include="IExerciseContent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
