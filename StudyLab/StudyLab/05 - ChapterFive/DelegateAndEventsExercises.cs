@@ -10,6 +10,15 @@ namespace StudyLab._5___ChapterFive
     {
         public delegate void DelegateName(string msg);
 
+        Func<int, int> myDelegate =
+            x => x * 2;
+
+        Func<int, int> myDelegateAlso =
+            delegate (int x)
+            {
+                return x * 2;
+            };
+
         public void Execute()
         {
             //RegisterAndCallDelegates();
