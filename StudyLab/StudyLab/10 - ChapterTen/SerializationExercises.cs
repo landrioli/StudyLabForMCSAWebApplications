@@ -6,6 +6,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace StudyLab._10___ChapterTen
 {
@@ -13,8 +14,9 @@ namespace StudyLab._10___ChapterTen
     {
         public void Execute()
         {
-            //BinarySerialization();
+            BinarySerialization();
             DataContractSerialization();
+            XmlSerializeObject();
         }
 
         private static void BinarySerialization()
@@ -63,6 +65,37 @@ namespace StudyLab._10___ChapterTen
             }
             Console.WriteLine("Data has been Deserialized!");
         }
+
+        private void XmlSerializeObject()
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(Person));
+            string xml;
+            using (StringWriter stringWriter = new StringWriter())
+            {
+                Person p = new Person
+                {
+                    FirstName = "John",
+                    LastName = "Doe",
+                    Age = 42
+                };
+                serializer.Serialize(stringWriter, p);
+                xml = stringWriter.ToString();
+            }
+            Console.WriteLine(xml);
+            using (StringReader stringReader = new StringReader(xml))
+            {
+                Person p = (Person)serializer.Deserialize(stringReader);
+                Console.WriteLine("{0}{1} is {2} years old", p.FirstName, p.LastName, p.Age);
+            }
+        }
+    }
+
+    [Serializable]
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
     }
 
     [DataContract]

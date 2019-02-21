@@ -20,7 +20,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new GeneralExercises();
+            IExerciseContent exercise = new SerializationExercises();
             exercise.Execute();
             Console.ReadLine();
         }
