@@ -60,6 +60,7 @@
     <Compile Include="08 - ChapterEight\AsyncProgrammingExercises.cs" />
     <Compile Include="08 - ChapterEight\TasksExercises.cs" />
     <Compile Include="08 - ChapterEight\ThreadsExercises.cs" />
+    <Compile Include="09 - ChapterNine\ExceptionExercises.cs" />
     <Compile Include="10 - ChapterTen\SerializationExercises.cs" />
     <Compile Include="11 - ChapterEleven\CryptographExercises.cs" />
     <Compile Include="12 - ChapterTwelve\ReflectionExercises.cs" />

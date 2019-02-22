@@ -4,6 +4,7 @@ using StudyLab.ChapterThree;
 using StudyLab.ChapterTwo;
 using StudyLab.GeneralQuestions;
 using StudyLab._04___ChapterFour;
+using StudyLab._09___ChapterNine;
 using StudyLab._10___ChapterTen;
 using StudyLab._11___Criptography;
 using StudyLab._12___ChapterTwelve;
@@ -20,7 +21,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new SerializationExercises();
+            IExerciseContent exercise = new ExceptionExercises();
             exercise.Execute();
             Console.ReadLine();
         }
