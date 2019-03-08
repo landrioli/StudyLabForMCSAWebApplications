@@ -21,7 +21,7 @@ namespace StudyLab
     {
         static void Main(string[] args)
         {
-            IExerciseContent exercise = new GeneralExercises();
+            IExerciseContent exercise = new CollectionsExercises();
             exercise.Execute();
             Console.ReadLine();
         }
